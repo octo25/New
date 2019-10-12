@@ -1,0 +1,392 @@
+{% load static %}
+<!doctype html>
+<html>
+<head>
+	<title>CSS IMAGE</title>
+<meta charset="UTF-8">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style type="text/css"> 
+
+    * {
+        margin: 0;
+        padding: 0;
+   }
+
+	body {
+		margin: 0 auto;
+
+	}
+
+	#wrapper {
+   	    width: 960px;
+   	    margin: 0 auto;
+   }
+
+  #header_wrap {
+   	    width: 100%;
+   	    height: 201px;
+   }
+
+  #header {
+	    height: 0px;
+	    background-size: cover;
+
+	}
+
+   .top-nav {
+   	    margin: 0;
+   	    padding: 0;
+   	    width: 100%;
+   	    background-color: black;
+
+   }  
+
+	.nav {
+		display: block;
+		margin: 0 auto;
+		padding: 0;
+		width: 875px;
+		
+	}
+
+	.nav ul {
+		display: inline-block;
+		margin: 0 0 0 35px;
+		padding: 20px 0 16px;
+		list-style: none;
+		
+	}
+
+	.nav ul li {
+		display:inline-block;
+		margin: 0 15px 0 19px;
+		padding: 0;
+		float: left;
+
+	}
+
+	.nav ul li a {
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+		font-family:italic;
+		font-size: 13px;
+		color: white;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-decoration: none;
+
+
+	}
+
+	.nav ul li a:hover {
+		text-decoration:underline;
+	}
+
+    #body-container {
+    	width:100%;
+    	height: auto;
+    	margin: 0px;
+    	padding: 20px 0;
+    	overflow: hidden;
+    }
+	
+
+	h1 {
+		color: crimson;
+		font-size: 60px;
+		text-align: center;
+	}
+
+	#main-Content {
+        width: 960px;
+        margin: 0 auto;
+        padding: 0px;
+	}	
+
+  .tagline {
+    width: 960px;
+    height: 67px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .banner {
+    width: 960px;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .slider {
+    width: 930px;
+    height: 370px;
+    border: 1px solid #000;
+  }
+
+  .Blog {
+      width: 960px;
+      height: 117px;
+    }
+
+    .blog p span {
+    	margin: 10px 0 0 20px;
+    	padding: 10px 0 0 0;
+    	font-family:Arial, Helvetica, sans-serif;
+    	font-size:24px;
+    	font-weight:bold;
+    	color: gold;
+    }
+
+    .blog p {
+      margin: 0;
+      padding: 0 4px 0 0;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size:14px;
+      color:#fff;
+      font-weight:normal;
+    }
+
+      #mainWrapper {
+      width: 930px;
+      margin: 10px auto;
+    }
+
+    #leftcol {
+        width: 600px;
+        float: left;
+        margin-bottom: 10px;
+  
+    }
+
+    .block {
+      width: 540px;
+      height: 260px;
+      margin: 10px;
+    }
+
+    .code {
+      width: 540px;
+      height: 240px;
+      border: 1px solid #000;
+      margin: 10px;
+    }
+
+     #rightcol {
+      width: 300px;
+      float: right;
+    }
+
+    p {
+    	color: white;
+    }
+
+    h3 {
+    	color: burlywood;
+    }
+
+   
+
+    .footer {
+    	display:inline-block;
+    	margin: 0;
+    	padding: 0;
+    	width: 100%;
+    	background-color: black;
+    }
+
+    .footer-nav {
+    	display: block;
+    	margin: 0 auto;
+    	padding: 0 0 0 70px;
+    	width: 625px;
+    }
+
+    .footer-nav ul {
+       display: inline-block;
+       margin: 0;
+       padding: 15px 0;
+    }
+
+    .footer-nav ul li  {
+    	display: inline-block;
+    	margin: 0;
+    	padding: 0 10px;
+      float: left;
+      border-right: 2px solid #fff;
+      line-height: 15px;
+    }
+
+    .footer-nav ul li a {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size:16px;
+      color:white;
+      font-weight: normal;
+      text-decoration:underline;
+    }
+
+    .footer-nav ul li a:hover {
+      text-decoration: none;
+    }
+
+    .footer-nav .no-border {
+      border: none;
+    }
+
+    hr {
+      border-top: 1px dotted grey;
+    }
+    
+    .fa {
+      padding: 5px;
+      font-size: 25px;
+      width: 25px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+}
+
+.fa-facebook {
+     background: black;
+     color: white;
+    
+}
+
+.fa-github-square {
+    background: black;
+    color: white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+          <div id="header_wrap">
+  	    <div id ="header"></div>
+
+     </div>
+     <!--nav-->
+        <div class ="top-nav">
+               <nav class="nav">
+  	                           <ul>
+  		                          <li><a href="">Home</a></li>
+  		                          <li><a href="{% url 'about' %}">About</a></li>
+  		                          <li><a href="{% url 'gallery' %}">GALLERY</a></li>
+  	                            <li><a href="{% url 'login' %}">Log In</a></li>
+                                <li><a href="{% url 'signup' %}">Sign Up</a></li>
+                                <li><a href="mailto:ebisumark23@gmail.com">Contact</a></li>
+  	                           </ul>
+  	                        </nav>
+                       </div>
+  	          <!--nav end-->
+
+
+   <div id="body-container">
+
+   	<div id="main-Content">
+   		<div class="tag-line">
+        
+
+        <div class="banner">
+        <div class="slider">
+
+        </div>
+
+   		</div>
+
+   	<section class="Blog">
+   		<p><span>sum</span> has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining e</p>
+   	</section>
+
+
+    <div main="mainWrapper">
+
+    <div id="leftcol">
+
+    <div class="block">
+    <img src="{% static 'ludwig.jpg' %}">
+</div>
+
+    <div class="code"></div>
+
+    <div class="thumb-box"></div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7026.013989075498!2d-22.4495089!3d63.880391!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfac6d4589ad02a38!2sBlue%20Lagoon!5e0!3m2!1sen!2sus!4v1570891387700!5m2!1sen!2sus" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" align="center"></iframe></div>
+                      
+
+
+
+
+
+
+
+    </div>
+
+    <div id="rightcol">
+
+    <div class="box">         
+                            <hr>
+                              <p><a href="https://www.facebook.com/mark.ebisu" class="fa fa-facebook"></a>  <i><a href="https://github.com/octo25" class="fa fa-github-square" style="font-size:30px"></a></i></p>
+                              <hr>  
+    	                     <h3>Intercessory Line</h3>
+    	                        <p>6:00am [tuesdays & Thursdays]<br>
+    	                      Dial: (657)  453-5600- Code: 524976#</p>
+    	                  </div>
+
+    	                  <div class="box">
+    	                  	<h3>Intercessory </h3>
+    	                  	  <p>9:30pm [wednesday]</p>
+    	                  </div>
+
+    	                  <div class="box">
+    	                  	<h3>Classes </h3>
+    	                  	  <p>8:30pm [Sunday]</p>
+    	                  </div>
+
+    	                  <div class="box">
+    	                  	<h3>Sunday </h3>
+    	                  	  <p>9:30 am [sunday]</p>
+    	                  </div>
+
+    	                  <div class="box">
+    	                  	<h3>Monday </h3>
+    	                  	  <p>10:30 am [monday]</p>
+    	                  </div>
+
+    	                  <div class="box">
+    	                  	<h3>Tuesday </h3>
+    	                  	  <p>2:30  [tuesday]</p>
+    	                  </div>
+    	                </div>
+
+    	                <div class="clear"></div>
+
+    	<div class="thumb-buttons"></div>
+
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <!--footer-->
+         <footer class="footer">
+ <div class="footer-nav">
+ 	<ul>
+ 		<li><a href="">Home</a></li>
+ 		<li><a href="">Highlight</a></li>
+ 		<li><a href="">Free</a></li>
+ 		<li><a href="">Light</a></li>
+ 		<li><a href="">Hybrid</a></li>
+ 	</ul>
+ 	<div class="clear"></div>
+
+</body>
+</div>
+</html>
